@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Verger Doré</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #695F3C;
+            font-family: 'Cormorant Garamond', serif;
+            margin: 0;
+            padding: 0;
+        }
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+    
+        .logo {
+            color: #695F3C;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    
+        .reserve-button {
+            background-color: #695F3C;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: 400;
+        }
+    
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+        }
+    
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 300;
+            color: #695F3C;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.2;
+        }
+    
+        .contact-button {
+            background-color: #695F3C;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Cormorant Garamond', serif;
+            text-decoration: none !important;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-button:hover {
+            background-color: #867748;
+        }
+
+        .contact-button a {
+            color: white; 
+            text-decoration: none; 
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 50px;
+            gap: 40px;
+        }
+    
+        .gallery img {
+            max-width: 350px;
+            height: auto;
+            object-fit: cover;
+        }
+    
+        .gallery img:first-child {
+            height: 400px;
+        }
+    
+        .gallery img:last-child {
+            height: 300px;
+        }
+    
+        .about {
+            padding: 80px 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    
+        .about h3 {
+            color: #695F3C;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    
+        .about p {
+            color: #695F3C;
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: 300;
+            margin: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Le Verger Doré</a>
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="team.html">Our Team</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="reservation.html" class="reserve-button"><b>Reserve Now</b></a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1><b>Come taste revolution, experience undiscovered recipes with us.</b></h1>
+        <button class="contact-button"><b><a href="contactus.html" >Contact Us</a></b></button>
+    </section>
+
+    <section class="gallery">
+        <img src="resources/chef_main1.jpg" alt="Chef preparing food">
+        <img src="resources/chef_main2.jpg" alt="Gourmet dish">
+    </section>
+
+    <section class="about">
+        <h3><b>WHAT WE BELIEVE</b></h3>
+        <p>
+            At our restaurant, we're passionate about bringing you the freshest, most flavorful ingredients - straight from the earth to your plate. Every meal we prepare is a celebration of quality and care, crafted with produce that's never frozen and always bursting with natural goodness.<br><br>
+            Picture this:<br><br>
+            Vibrant greens like crisp lettuce, peppery arugula, and tender bok choy. Sweet and juicy fruits - ripe mangoes, refreshing pineapples, and tangy berries. Root vegetables that taste like they were harvested this morning: earthy beets, sweet yams, and golden potatoes.<br><br>
+            But it doesn't stop there. We love the crunch of cucumbers, the brightness of citrus, the subtle spice of scallions, and the bold flavors of fresh herbs like cilantro, dill, and parsley.<br><br>
+            From the delicate sweetness of heirloom tomatoes to the hearty richness of squash and pumpkin, every ingredient we choose is selected to bring out the best in every dish. Because great food isn't just about cooking - it's about honoring the ingredients themselves.<br><br>
+            When you dine with us, you're not just enjoying a meal. You're savoring the taste of real, fresh, uncompromised flavor.
+        </p>
+    </section>
+</body>
+</html>

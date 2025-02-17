@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Le Verger Doré</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #695F3C;
+            font-family: 'Cormorant Garamond', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            color: #695F3C;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .reserve-button {
+            background-color: #695F3C;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: 400;
+        }
+
+        .team-section {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .team-section h1 {
+            font-size: 48px;
+            font-weight: 300;
+            color: #695F3C;
+            margin-bottom: 40px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .team-member {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .team-member h2 {
+            color: white;
+            font-size: 22px;
+            margin: 15px 0 5px;
+        }
+
+        .team-member h3 {
+            color: #695F3C;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .team-member p {
+            color: #c7b98b;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Le Verger Doré</a>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="team.html">Our Team</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="reservation.html" class="reserve-button"><b>Reserve Now</b></a>
+    </nav>
+</header>
+
+<section class="team-section">
+    <h1><b>Our Team</b></h1>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="chef_emile.jpg" alt="Chef Émile Laurent">
+            <h2>CHEF DE CUISINE</h2>
+            <h3>ÉMILE LAURENT</h3>
+            <p>A master of French gastronomy with over 15 years of experience in Michelin-starred kitchens. Chef Émile blends traditional techniques with modern flair, creating unforgettable dishes.</p>
+        </div>
+        <div class="team-member">
+            <img src="chef_lucien.jpg" alt="Sous Chef Lucien Dupont">
+            <h2>SOUS CHEF</h2>
+            <h3>LUCIEN DUPONT</h3>
+            <p>Lucien is a rising culinary star with a passion for fresh, local ingredients. His creative touch brings vibrant flavors and artistry to every plate.</p>
+        </div>
+        <div class="team-member">
+            <img src="chef_julia.jpg" alt="Pastry Chef Julia Moreau">
+            <h2>PASTRY CHEF</h2>
+            <h3>JULIA MOREAU</h3>
+            <p>Julia's expertise lies in crafting elegant desserts that are as beautiful as they are delicious. A Le Cordon Bleu graduate, she is known for her intricate techniques and imaginative creations.</p>
+        </div>
+        <div class="team-member">
+            <img src="manager_jacques.jpg" alt="Manager Jacques Adebayo">
+            <h2>MANAGER</h2>
+            <h3>JACQUES ADEBAYO</h3>
+            <p>With a warm demeanor and impeccable organizational skills, Jacques ensures the restaurant operates smoothly, creating a welcoming environment for every guest.</p>
+        </div>
+        <div class="team-member">
+            <img src="bartender_louis.jpg" alt="Bartender Louis Charpentier">
+            <h2>BARTENDER</h2>
+            <h3>LOUIS CHARPENTIER</h3>
+            <p>Louis is a mixologist with a talent for crafting exquisite cocktails that blend classic French influences with modern twists.</p>
+        </div>
+        <div class="team-member">
+            <img src="waitress_sophie.jpg" alt="Head Waitress Sophie Martin">
+            <h2>HEAD WAITRESS</h2>
+            <h3>SOPHIE MARTIN</h3>
+            <p>Sophie brings grace and attentiveness to the dining room. Her dedication ensures every guest feels valued and cared for.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

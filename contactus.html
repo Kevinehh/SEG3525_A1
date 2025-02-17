@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Le Verger Doré</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #695F3C;
+            font-family: 'Cormorant Garamond', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            color: #695F3C;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .contact h1 {
+            font-size: 42px;
+            color: #695F3C;
+            margin-bottom: 20px;
+        }
+
+        .contact-container {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            max-width: 1000px;
+            justify-content: center;
+        }
+
+        .map iframe {
+            width: 500px;
+            height: 350px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .contact-details {
+            color: #fff;
+            font-family: 'Cormorant Garamond', serif;
+            text-align: left;
+        }
+
+        .contact-details h2, .contact-details h3 {
+            color: #695F3C;
+        }
+
+        .contact-details p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .back-button {
+            background-color: #695F3C;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 400;
+            text-decoration: none;
+            margin-top: 30px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Le Verger Doré</a>
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="team.html">Our Team</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="reservation.html" class="back-button"><b>Reserve Now</b></a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.095839321924!2d-73.56725648443537!3d45.50168897910112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a5e10f3e37d%3A0x5b97223e41b2d2a9!2sMontreal%2C%20QC!5e0!3m2!1sen!2sca!4v1620371234567!5m2!1sen!2sca" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="contact-details">
+                <h2>Le Verger Doré</h2>
+                <p>135 Rue Normandie<br>Montréal, QC</p>
+                <p>819-232-2331</p>
+                <p>contact@vergerdoré.ca</p>
+                
+                <h3>Heures d'ouvertures</h3>
+                <p><b>Jours de la semaine:</b> 12:00 - 22:00</p>
+                <p><b>Fin de semaine:</b> 13:00 - 01:00</p>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">Back to Home</a>
+    </section>
+</body>
+</html>
